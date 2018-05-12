@@ -4,7 +4,7 @@ rollout ShareMeshDialog "Share mesh"
 (
 	spinner verticesCountSpinner "verices count" range:[0,100000,1] type:#integer
 		
-	button translateBtn "Translate"
+	button translateBtn "Select"
 	on translateBtn pressed do
 	(
 		clearSelection()
