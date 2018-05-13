@@ -107,12 +107,12 @@ rollout SelectObjByPositionPerVertexDialog "Select obj by vertices position"
 			
 				local matchFunc = undefined
 				local selectedObjType
-				if objTypeRadio.state == 0 then 
+				if objTypeRadio.state == 1 then 
 				(
 					matchFunc = isPolyPositionPerVertexMatched
 					selectedObjType = Editable_Poly
 				)
-				else if objTypeRadio.state == 1 then 
+				else if objTypeRadio.state == 2 then 
 				(
 					matchFunc = isMeshPositionPerVertexMatched
 					selectedObjType = Editable_Mesh
